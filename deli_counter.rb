@@ -24,7 +24,6 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
-end
 # 3. Build the `now_serving` method which should call out (i.e. `puts`) the next
 # person in line and then remove them from the front. If there is nobody in line,
 #  it should call out (`puts`) that `"There is nobody waiting to be served!"`.
