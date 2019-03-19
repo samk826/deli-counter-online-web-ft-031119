@@ -4,7 +4,7 @@ puts "The line is currently empty."
 else
   deli_line="The line is currently: "
   deli.each.with_index(1) do |name, i|
-    deli_line<<"#{i}. #{name} "
+    deli_line<<"#{i}. #{name}"
   end
   puts deli_line
 end
